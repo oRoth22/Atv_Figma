@@ -1,0 +1,190 @@
+body{
+    height: 100vh;
+    background-color: #000 !important;
+}
+
+.header{
+    position: relative;
+    height: 16vh;
+    width: 100vw;
+    background-color: #fff;
+    margin: none;
+}
+
+.imglogo{
+    position: relative;
+    height: 12vh;
+    right: 4vw;
+    right: 4vw;
+}
+
+.h1Title{
+   width: 100%;
+   right: 6vw;
+   font-size: 5vh;
+   position: relative;
+}
+
+.botao{
+    background-color: #980909;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    left: 22vw;
+    bottom: 5vh;
+    width: 12vw;
+    height: 4vh;
+    margin-left: 6vw;
+}
+
+img.img-fluid{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 2.5vh;
+    border: solid 2px #980909;
+}
+
+.caixa{
+    height: 25vh;
+    margin-bottom: 7vh;
+}
+
+.legenda{
+    position: relative;
+    top: 3vh;
+    font-size: 2.5vh;
+    color: #fff;
+}
+
+.Titulo{
+    position: relative;
+    top: 12vh;
+    font-weight:bolder;
+    color: #fff;
+}
+
+.info{
+    position: relative;
+    top: 12vh;
+    text-align: left;
+    color: #d4d3d3;
+}
+
+.Titulo2{
+    position: relative;
+    top: 17vh;
+    font-weight:bolder;
+    color: #fff;
+}
+
+.info2{
+    position: relative;
+    top: 17vh;
+    text-align: left;
+    color: #d4d3d3;
+}
+
+.imgBriga{
+    position: relative;
+   height: 10%;
+   top:20vh;
+   margin-bottom: 2vh;
+}
+
+.brigaimg{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.planos{
+    position: relative;
+    color: #fff;
+    top: 30vh;
+    font: bolder;
+    text-align: center;
+    font-size: 6vh;
+}
+
+.gradePlanos{
+    position: relative;
+    top: 40vh;
+}
+
+.grade{
+    height: 45vh;
+    border: solid 1px #fff;
+    border-radius: 20px;
+    margin: 1vw;
+}
+
+.titulograde{
+    padding-top: 2vh;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.infograde{
+    color: #fff;
+    padding-top: 5vh;
+    text-align: center;
+}
+
+.preco{
+    position: relative;
+    bottom: 2vh;
+    color: #fff;
+    font-size: 4vh;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.btnSelecionar{
+    position: relative;
+    top: 14vh;
+    background-color: #fff;
+    width: 12vw;
+    height: 6vh;
+    border-radius: 25px;
+    font-size: 3vh;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+@media only screen and (max-width: 392px){
+    .imglogo{
+        position: relative;
+        height: 12vh;
+        right: 32vw;
+    }
+
+    .h1Title{
+        position: relative;
+        font-size: 3vh;
+        width: 30vh;
+        left: 30vw;
+        bottom: 10vh;
+     }
+
+     .header{
+        position: relative;
+        height: 18vh;
+        width: 100vw;
+        background-color: #fff;
+        margin: none;
+    }
+
+    .botao{
+        width: 22vw;
+        position: relative;
+        margin-right: -4vw;
+        height: 6vh;
+        bottom: 7vh;
+    }
+
+    .AreaBotao{
+        display: flex;
+    }
+
+}
